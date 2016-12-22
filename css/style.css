@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size:16px;
+  }
+  h1 {
+    font-size: 2.3em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+  .box {
+    height: 105px;
+  }
+  .logo {
+    width: 90px;
+  }
+  .name {
+    margin-top: .5em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size:12px;
+  }
+  h1 {
+    font-size: 2.8em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+  figcaption {
+    font-size: 1.9em;
+  }
+  .box {
+    height: 105px;
+  }
+  .logo {
+    width: 85px;
+  }
+  .name {
+    margin-top: .5em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    font-size:10px;
+  }
+  h1 {
+    font-size: 2.8em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+  h4 {
+    font-size: 1.9em;
+  }
+  figcaption {
+    font-size: 2.2em;
+  }
+  .box {
+    height: 75px;
+  }
+  .logo {
+    margin-top: 1em;
+    width: 65px;
+  }
+  .name {
+    margin-top: -1em;
+  }
+}
+
+body {
+  background-color: #aaa;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.banner {
+  background-color: #ffa560;
+  box-shadow: 0 .5em .7em #333;
+  z-index: 2;
+}
+
+.pic-shadow {
+  box-shadow: 0 .2em .4em #333;
+}
+
+.logo {
+  margin-left: 1em;
+  margin-top: .5em;
+}
+
+.under {
+  z-index: -1;
+}
+
+.app {
+  width: 300px;
+}
+
+.img-caption {
+  margin: .7em 0;
+}
